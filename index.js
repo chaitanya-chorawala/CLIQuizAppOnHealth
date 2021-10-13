@@ -18,7 +18,7 @@ console.log(blue("Welcome to the game!"), yellow("How well do you know about hea
 var name = rs.question(cyan("What is your name? "))
 console.log(green(`Hello ${name}!`));
 
-console.log("\n! There will be "+ totalQuestion +" question with 4 option you can select any one i.e", yellow("a, b, c, d"), "!\n");
+console.log("\n! There will be "+ totalQuestion +" question with 4 option you can select any one i.e", yellow("1, 2, 3, 4"), "!\n");
 console.log(green("+5 "), cyan("for right answer,"), red(" -2"), cyan(" for wrong answer!"));
 
 var displayQuestion = (que) => {
